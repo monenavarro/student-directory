@@ -48,12 +48,12 @@ end
 
 def print(students)
   students.each do |student|
-    puts "#{student[:name]} (#{student[:cohort]} cohort)"
+  puts "#{student[:name]} (#{student[:cohort]} cohort)"
   end
 end
 
-def print_footer(students)
-  puts "Overall, we have #{students.count} cunning students."
+def print_footer(names)
+  puts "Overall, we have #{names.count} cunning students."
 end
 
 # nothing happens until we call the methods
