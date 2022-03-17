@@ -1,6 +1,3 @@
-require 'date' 
-require 'csv'
-
 @students = [] 
 
 def interactive_menu
@@ -53,9 +50,6 @@ def display_students
   print_students_list
   print_footer
 end
-
-def pluralisation
-  @students.length == 1 ? "student": "students"
 
 def print_header
   puts "The students of Villains Academy"
